@@ -1,3 +1,4 @@
+
 # Local Interchain
 
 A simple way to config and run IBC local chain testing environments with any language of choice for interaction.
@@ -9,6 +10,14 @@ A simple way to config and run IBC local chain testing environments with any lan
 ## External Repository CI
 
 - [**Rust**](./rust/README.md)
+
+## Run the Interchain security provider and consumer chain using LocalInterchain
+
+```
+local-ic start interchainsecurity
+```
+
+Dungeon chain has been added as a consumer chain(of Gaia): ./chains/interchainsecurity.json 
 
 ## Installing Locally
 
