@@ -1,0 +1,27 @@
+{
+    "chains": [
+        {
+            "name": "dungeon",
+            "chain_id": "localdungeon",
+            "docker_image": {
+                "repository": "dungeon",
+                "version": "local",
+                "uid-gid": "1025:1025"
+            },
+            "gas_prices": "0.0udgn",
+            "gas_adjustment": 2,
+            "genesis": {},
+            "number_vals": 1,
+            "number_node": 0,
+            "chain_type": "cosmos",
+            "coin_type": 118,
+            "binary": "dungeond",
+            "bech32_prefix": "dungeon",
+            "denom": "udgn",
+            "trusting_period": "336h",
+            "debugging": false,
+            "block_time": "2s",
+            "ics_version_override": {}
+        }
+    ]
+}
